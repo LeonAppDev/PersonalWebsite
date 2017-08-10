@@ -1,0 +1,14 @@
+C:\PrivateAppDev\AtomProject\DemoProject\personalWebsite\PersonalWebsite\ParcelModel\bin\Debug\netcoreapp1.1\ParcelModel.deps.json
+C:\PrivateAppDev\AtomProject\DemoProject\personalWebsite\PersonalWebsite\ParcelModel\bin\Debug\netcoreapp1.1\ParcelModel.dll
+C:\PrivateAppDev\AtomProject\DemoProject\personalWebsite\PersonalWebsite\ParcelModel\bin\Debug\netcoreapp1.1\ParcelModel.pdb
+C:\PrivateAppDev\AtomProject\DemoProject\personalWebsite\PersonalWebsite\ParcelModel\obj\Debug\netcoreapp1.1\ParcelModel.csprojResolveAssemblyReference.cache
+C:\PrivateAppDev\AtomProject\DemoProject\personalWebsite\PersonalWebsite\ParcelModel\obj\Debug\netcoreapp1.1\ParcelModel.AssemblyInfo.cs
+C:\PrivateAppDev\AtomProject\DemoProject\personalWebsite\PersonalWebsite\ParcelModel\obj\Debug\netcoreapp1.1\ParcelModel.dll
+C:\PrivateAppDev\AtomProject\DemoProject\personalWebsite\PersonalWebsite\ParcelModel\obj\Debug\netcoreapp1.1\ParcelModel.pdb
+C:\PrivateAppDev\AtomProject\Trademe\parsetheparcel-liang-ren\PersonalWebsite\ParcelModel\bin\Debug\netcoreapp1.1\ParcelModel.deps.json
+C:\PrivateAppDev\AtomProject\Trademe\parsetheparcel-liang-ren\PersonalWebsite\ParcelModel\bin\Debug\netcoreapp1.1\ParcelModel.dll
+C:\PrivateAppDev\AtomProject\Trademe\parsetheparcel-liang-ren\PersonalWebsite\ParcelModel\bin\Debug\netcoreapp1.1\ParcelModel.pdb
+C:\PrivateAppDev\AtomProject\Trademe\parsetheparcel-liang-ren\PersonalWebsite\ParcelModel\obj\Debug\netcoreapp1.1\ParcelModel.csprojResolveAssemblyReference.cache
+C:\PrivateAppDev\AtomProject\Trademe\parsetheparcel-liang-ren\PersonalWebsite\ParcelModel\obj\Debug\netcoreapp1.1\ParcelModel.AssemblyInfo.cs
+C:\PrivateAppDev\AtomProject\Trademe\parsetheparcel-liang-ren\PersonalWebsite\ParcelModel\obj\Debug\netcoreapp1.1\ParcelModel.dll
+C:\PrivateAppDev\AtomProject\Trademe\parsetheparcel-liang-ren\PersonalWebsite\ParcelModel\obj\Debug\netcoreapp1.1\ParcelModel.pdb
