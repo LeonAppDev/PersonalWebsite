@@ -7,8 +7,8 @@ namespace ParcelModel.Parcel
 {
     public enum ParcelType
     {
-        Large,
+        Small,
         Medium,
-        Small
+        Large
     }
 }

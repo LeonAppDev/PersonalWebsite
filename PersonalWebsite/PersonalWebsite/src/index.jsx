@@ -1,4 +1,3 @@
-import HelloWorld from './HelloWorld';
 import ParcelDetails from './ParcelDetails';
 import React,{Component} from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';

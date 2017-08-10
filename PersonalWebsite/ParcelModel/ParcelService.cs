@@ -14,9 +14,10 @@ namespace ParcelModel
         {
             _parcelList = new List<ParcelEntity>()
             {
-            ParcelFactory.CreateParcel(ParcelType.Large),
-            ParcelFactory.CreateParcel(ParcelType.Medium),
-            ParcelFactory.CreateParcel(ParcelType.Small),
+                 ParcelFactory.CreateParcel(ParcelType.Small),
+                 ParcelFactory.CreateParcel(ParcelType.Medium),
+                 ParcelFactory.CreateParcel(ParcelType.Large),
+
         };
         }
 

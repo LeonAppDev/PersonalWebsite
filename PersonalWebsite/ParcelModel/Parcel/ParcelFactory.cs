@@ -20,6 +20,7 @@ namespace ParcelModel.Parcel
                     largeParcel.Height = Constants.LARGE_HEIGHT;
                     largeParcel.Weight = Constants.MAX_WEIGHT;
                     largeParcel.Cost = Constants.LARGE_COST;
+                    largeParcel.Type = ParcelType.Large;
                     return largeParcel;
                 case ParcelType.Medium:
                     ParcelEntity mediumParcel = new ParcelEntity();
@@ -28,6 +29,7 @@ namespace ParcelModel.Parcel
                     mediumParcel.Height = Constants.MEDIUM_HEIGHT;
                     mediumParcel.Weight = Constants.MAX_WEIGHT;
                     mediumParcel.Cost = Constants.MEDIUM_COST;
+                    mediumParcel.Type = ParcelType.Medium;
                     return mediumParcel;
                 case ParcelType.Small:
                     ParcelEntity smallParcel = new ParcelEntity();
@@ -36,6 +38,7 @@ namespace ParcelModel.Parcel
                     smallParcel.Height = Constants.SMALL_HEIGHT;
                     smallParcel.Weight = Constants.MAX_WEIGHT;
                     smallParcel.Cost = Constants.SMALL_COST;
+                    smallParcel.Type = ParcelType.Small;
                     return smallParcel;
                 default:
                     throw new InvalidParcelException("Invalid Parcel type");

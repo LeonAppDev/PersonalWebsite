@@ -7,7 +7,7 @@ namespace ParcelModel.Parcel
 {
     public class ParcelEntity:AbstractParcel
     {
-        public ParcelType Type { get; protected set; }
+        public ParcelType Type { get; set; }
         public decimal Cost { get; set; }
     }
 }
