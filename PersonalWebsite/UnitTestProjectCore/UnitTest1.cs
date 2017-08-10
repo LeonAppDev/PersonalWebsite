@@ -99,6 +99,57 @@ namespace UnitTestProjectCore
             Assert.IsNull(packageType);
         }
 
+        [TestMethod]
+        public void FindSmallPackage()
+        {
+            var input = new InputParcel()
+            {
+                Length = 200,
+                Breadth = 300,
+                Height = 150,
+                Weight = 25
+            };
+
+            var packageType = _parcelService.Identify(input);
+
+            Assert.AreEqual<Enum>(packageType.Type,ParcelType.Small);
+            Assert.AreEqual<decimal>(packageType.Cost, Constants.SMALL_COST);
+        }
+
+        [TestMethod]
+        public void FindMediumPackage()
+        {
+            var input = new InputParcel()
+            {
+                Length = 300,
+                Breadth = 400,
+                Height = 200,
+                Weight = 25
+            };
+
+            var packageType = _parcelService.Identify(input);
+
+            Assert.AreEqual<Enum>(packageType.Type, ParcelType.Medium);
+            Assert.AreEqual<decimal>(packageType.Cost, Constants.MEDIUM_COST);
+        }
+
+
+        [TestMethod]
+        public void FindLargePackage()
+        {
+            var input = new InputParcel()
+            {
+                Length = 400,
+                Breadth = 600,
+                Height = 250,
+                Weight = 25
+            };
+
+            var packageType = _parcelService.Identify(input);
+
+            Assert.AreEqual<Enum>(packageType.Type, ParcelType.Large);
+            Assert.AreEqual<decimal>(packageType.Cost, Constants.LARGE_COST);
+        }
 
     }
 }
